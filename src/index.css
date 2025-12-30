@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.Einput{
+    box-shadow: inset 3px 3px 5px rgb(50, 108, 50);
+    border: none;
+}
+.Ebtn{
+    box-shadow: 3px 3px 5px rgb(178, 178, 178),-3px -3px 5px white;
+}
+.Ebtn:active{
+    box-shadow: none;
+    transform: scale(0.9);
+}
+.Dbtn:active{
+    box-shadow: none;
+    transform: scale(0.9);
+}
+.Dinput{
+    box-shadow: inset 3px 3px 5px rgb(142, 69, 83);
+    border: none;
+}
+.Dbtn{
+    box-shadow: 3px 3px 5px rgb(178, 178, 178),-3px -3px 5px white;
+}
+body{
+    background-color: rgb(235, 245, 245);
+    /* background-color: rgb(250, 170, 188); */
+    
+}
